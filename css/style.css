@@ -256,6 +256,10 @@ body{
   }
 }
 
+.social__content{
+  display: none;
+}
+
 footer{
   width: 100%;
   height: 1vw;
