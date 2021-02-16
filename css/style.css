@@ -28,9 +28,16 @@ body{
     background-size: auto 100%;
     background-image: url(../images/bg-desktop.svg);
     justify-content: space-around;
-    min-height: 800px;
   }
 }
+
+
+@media screen and (min-width: 1298px){
+  body{
+    min-height: max(100vh, 800px);
+  }
+}
+
 
 .header{
   width: 80%;
