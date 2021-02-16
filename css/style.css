@@ -22,7 +22,7 @@ body{
   position: relative;
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 900px){
   body{
     background-position: left;
     background-size: auto 100%;
@@ -60,7 +60,7 @@ body{
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1296px){
   .header__logo{
     margin-left: 24px;
     position: relative;
@@ -87,7 +87,7 @@ body{
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1296px){
   .container{
     margin: 237px 0 19px;
   }
@@ -107,12 +107,12 @@ body{
   .title{
     width: 512px;
     font-size: 2.43rem;
-    text-align: left;
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1340px){
   .title{
+    text-align: left;
     position:relative;
     left: -26px;
   }
@@ -131,14 +131,18 @@ body{
     margin-top: 40px;
     width: 100%;
     font-size: 1.15rem;
-    text-align: left;
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1298px){
   .information{
+    text-align: left;
     position: relative;
     top: -19px;
+  }
+}
+@media screen and (min-width: 1340px){
+  .information{
     left: -18px;
   }
 }
@@ -168,16 +172,16 @@ body{
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1298px){
   .button{
+    position: relative;
+    top: -15px;
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1340px){
   .button{
-    position: relative;
-    top: -15px;
     left: -18px;
   }
 }
@@ -198,7 +202,7 @@ body{
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1314px){
+@media screen and (min-width: 1296px){
   .social{
     margin: 183px 0 0 auto;
     width: 152px;
